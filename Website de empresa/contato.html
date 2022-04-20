@@ -1,0 +1,113 @@
+<!-- SITE DE CONSERTO DE COMPUTADORES -->
+<!-- DATA DE INICIO: 06/04/2022 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Control Z. Site de consertos de computadores!" />
+    <link rel="stylesheet" href="Visual/global.css" />
+    <link rel="stylesheet" href="Visual/footerheader.css" />
+    <link rel="stylesheet" href="Visual/responsiv.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>CONTROL Z | CONTATO</title>
+</head>
+<!--Corpo do site-->
+<body>
+    <!--Menu do site-->
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Control Z</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteudo-->
+    <div class="Cor-fundo">
+        <div class="conteudo">
+            <section class="formcss">
+                <form name="FormularioContato" method="post" data-netlify="True">
+                    <div class="titulocs">
+                        <h2>ENTRE EM CONTATO</h2>
+                    </div>
+                    <div>
+                        <label for="NomeContato"></label>
+                        <input type="text" name="NomeContato" id="NomeContato" placeholder="Seu Nome" required/>
+                    </div>
+                    <div>
+                        <label for="EmailContato"></label>
+                        <input type="email" name="EmailContato" id="EmailContato" placeholder="Seu email" required/>
+                    </div>
+                    <div>
+                        <label for="AssuntoContato"></label>
+                        <textarea name="AssuntoContato" id="AssuntoContato" placeholder="Assunto" rows="10" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <!--Rodapé do site-->
+    <div class="container">
+        <footer class="footer-container">
+            <div class="footer-content-2">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><a href="https://goo.gl/maps/kHMQ8P35zbsxyFey9">
+                        Rua Felisbelo Freire, Ramos, RJ-Rio De Janeiro.
+                    </a></p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:matheusgamer714@gmail.com">
+                        matheusgamer714@gmail.com
+                    </a></p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:21992406461">(21) 99240-6461</a></p>
+                </div>
+                <div>
+                    <i class="fa fa-whatsapp"></i>
+                    <p><a href="https://api.whatsapp.com/send?phone=5521992406461&
+                    text=Desejo%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank">
+                    +55 21-99240-6461
+                </a></p>
+                </div>
+            </div>
+            <div class="footer-content-3">
+                <p class="footer-empresa">
+                    <span>Sobre a Control Z</span>
+                    Uma empresa focada em manutenção de computadores e notebooks.
+                    Limpeza de hardware e otimização de sistema desktop.
+                </p>
+                <hr>
+                <p>©2022 Control Z Ltda.</p>
+            </div>
+            <div class="copyright">
+                <hr>
+                <p>©Copyright, Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Script menu-->
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>

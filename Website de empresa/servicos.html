@@ -1,0 +1,143 @@
+<!-- SITE DE CONSERTO DE COMPUTADORES -->
+<!-- DATA DE INICIO: 06/04/2022 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Control Z. Site de consertos de computadores!" />
+    <link rel="stylesheet" href="Visual/global.css" />
+    <link rel="stylesheet" href="Visual/footerheader.css" />
+    <link rel="stylesheet" href="Visual/responsiv.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>CONTROL Z | SERVIÇOS</title>
+</head>
+<!--Corpo do site-->
+<body>
+    <!--Menu do site-->
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Control Z</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteudo-->
+    <div class="Cor-fundo">
+        <div class="conteudo">
+            <article class="sobre-empresa">
+                <p>Preencha o formulario abaixo para nossa equipe entrar em contato o mais rapido possivel.
+                    Os preços de serviços são variados de acordo com o tipo de problema. O formulario abaixo
+                    você pode escolher as opções de qual problema você está enfrentando. Obs: não faços serviços
+                    domiciliar.
+                </p>
+            </article>
+            <section class="formcss">
+                <form name="FormularioServico" method="post" data-netlify="True">
+                    <div class="titulocs">
+                        <h2>SERVIÇOS CONTROL Z</h2>
+                    </div>
+                    <div>
+                        <label for="NomeContato"></label>
+                        <input type="text" name="NomeContato" id="NomeContato" placeholder="Primeiro Nome" required/>
+                    </div>
+                    <div>
+                        <label for="SobreContato"></label>
+                        <input type="text" name="SobreContato" id="SobreContato" placeholder="Sobre Nome" required/>
+                    </div>
+                    <div>
+                        <label for="Tellcontato"></label>
+                        <input type="tel" name="Tellcontato" id="Tellcontato" placeholder="Telefone de contato" required/>
+                    </div>
+                    <div>
+                        <label for="Selecaoservico"></label>
+                        <select name="Selecaoservico" id="Selecaoservico">
+                            <option value="Selecione um serviço.">Selecione um serviço.</option>
+                            <option value="Manutenção">Manutenção | R$120</option>
+                            <option value="Consultar">Consultar | R$50</option>
+                            <option value="Formatação">Formatação | R$35</option>
+                            <option value="Limpeza">Limpeza | R$60</option>
+                            <option value="Check-up">Check-up | R$100</option>
+                            <option value="Montagem">Montagem | R$95</option>
+                            <option value="Remoção De Virus">Remoção De Virus | R$25</option>
+                            <option value="Outros.">Outros.</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="AssuntoContato"></label>
+                        <textarea name="AssuntoContato" id="AssuntoContato" placeholder="Descreva seu problema" rows="10" required></textarea>
+                    </div>
+                    <p>Escolha uma data de agendamento:</p>
+                    <div>
+                        <label for="datacontato"></label>
+                        <input type="date" name="datacontato" id="datacontato" required/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <!--Rodapé do site-->
+    <div class="container">
+        <footer class="footer-container">
+            <div class="footer-content-2">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><a href="https://goo.gl/maps/kHMQ8P35zbsxyFey9">
+                        Rua Felisbelo Freire, Ramos, RJ-Rio De Janeiro.
+                    </a></p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:matheusgamer714@gmail.com">
+                        matheusgamer714@gmail.com
+                    </a></p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:21992406461">(21) 99240-6461</a></p>
+                </div>
+                <div>
+                    <i class="fa fa-whatsapp"></i>
+                    <p><a href="https://api.whatsapp.com/send?phone=5521992406461&
+                    text=Desejo%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank">
+                    +55 21-99240-6461
+                </a></p>
+                </div>
+            </div>
+            <div class="footer-content-3">
+                <p class="footer-empresa">
+                    <span>Sobre a Control Z</span>
+                    Uma empresa focada em manutenção de computadores e notebooks.
+                    Limpeza de hardware e otimização de sistema desktop.
+                </p>
+                <hr>
+                <p>©2022 Control Z Ltda.</p>
+            </div>
+            <div class="copyright">
+                <hr>
+                <p>©Copyright, Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Script menu-->
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>
